@@ -15,11 +15,11 @@ const bookSchema = new mongoose.Schema({
     },
     trending: {
         type: Boolean,
-        required: true,
+        // required: true,
     },
     coverImage: {
         type: String,
-        required: true,
+        // required: true,
     },
     oldPrice: {
         type: Number,
